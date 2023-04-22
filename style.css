@@ -1,0 +1,140 @@
+.container{
+    width: 99%;
+    height: 86px;
+    background-color: #FCAF02;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    row-gap: 20px;
+    font-family: Montserrat;
+}
+
+.startup-logo{
+    flex:1 1 200px; 
+    padding: 5px;
+    width: 10%;
+    margin-left: 30px;
+}
+
+.navbar{
+    
+    /* width: 2%; */
+   display: inline-block;
+   text-align: center;
+   padding: 20px;
+   color: rgb(0, 0, 0);
+   text-decoration: none;
+   font-size: 17px;
+      
+}
+
+main{
+    background-color: black;
+    font-family: Montserrat;
+}
+
+.para{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    color: white;
+    /* font-family: Montserrat; */
+}
+
+.right{
+    width: 80%;
+    height: 170px;
+    /* top: 2px; */
+}
+.left{
+    margin-top: 100px;
+    
+    padding: 50px;
+    height: 250px;
+    
+}
+
+.log{
+    background-color: #FCAF02;
+    width: 200px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid #FCAF02;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    margin-left: 45px;
+}
+
+.heading{
+    color:#FCAF02;
+    margin-left: 45px; 
+    font-family: Montserrat;
+}
+
+input{
+    background-color: black;
+    margin-left: 45px;
+    border-radius: 20px;
+    width: 92%;
+    padding: 7px;
+    border: 1px solid #FCAF02;
+    font-family: Montserrat;
+    outline: none;
+    color: #FCAF02;
+}
+
+#wrapper{
+    border-radius: 20px;
+    width: 97%;
+}
+
+::placeholder{
+    color:#FCAF02;
+}
+
+.btn{
+
+    font-family: Montserrat;
+    font-size:15px;
+    font-weight: bold;
+    align-items: center;
+    background-color: #FCAF02;
+    border-radius: 20px;
+    width: 219px;
+    padding: 5px;
+    border: 1px solid #FCAF02;
+    margin-left: 42%;
+    height: 39px;
+
+}
+
+.table{
+    text-align: center;
+    color: #FCAF02;
+    font-size: 12px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.table, th, td {
+    border: 2px solid #FCAF02;
+    border-collapse: collapse;
+    font-size: 15px;
+  
+}
+td,th{
+    width: 20px;
+    height: 45px;
+}
+
+.footer{
+    background-color: #FCAF02;
+    color: black;
+   
+}
